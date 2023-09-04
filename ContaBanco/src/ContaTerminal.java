@@ -1,7 +1,14 @@
+/**
+ * <h1> Conta Banco </h1>
+ * Programa de uma conta bancaria que recebe as informações via terminal e apresenta ao usuário
+ * @author Kaique Pereira
+ * @version 1.0
+ * @since 03/09/2023
+ */
 import java.util.Scanner;
 
 public class ContaTerminal {
-    pu12blic static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
 
         int numeroConta;
